@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Load the trained ML model
-MODEL_PATH = "models/model.pkl"
+MODEL_PATH = "models\gradient_boosting_model.pkl"
 model = joblib.load(MODEL_PATH)
 
 # Ensure upload folder exists
